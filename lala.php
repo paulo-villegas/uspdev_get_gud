@@ -1,5 +1,5 @@
 <?php
 
-echo "lala";
+var_dump("lala");
 
 
