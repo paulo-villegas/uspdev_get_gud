@@ -1,6 +1,6 @@
 <?php
 
-bar_dump("lala");
+#ini_set('display_errors', true);
 
 function bar_dump($var, $inline = false){
     if($inline){
@@ -9,3 +9,6 @@ function bar_dump($var, $inline = false){
         var_dump($var);
     }
 }
+
+var_dump("lala");
+
